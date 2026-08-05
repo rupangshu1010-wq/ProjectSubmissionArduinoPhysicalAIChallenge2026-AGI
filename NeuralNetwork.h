@@ -10,7 +10,7 @@ unsigned char NetGetLearn(void);
 unsigned char NetInput(unsigned char Input);
 unsigned char NetTarget(unsigned char Input);
 unsigned char NetAlloc(unsigned int Alloc);
-unsigned char NetRandomizeData(void);
+unsigned char NetInitData(void);
 unsigned char NetTrigg(void);
 
 #endif
