@@ -1,0 +1,22 @@
+===============================================================================
+PROPRIETARY SOFTWARE LICENSE & INTELLECTUAL PROPERTY NOTICE
+===============================================================================
+
+Copyright (c) 2026 Rupangshu Manna. All Rights Reserved.
+
+1. OWNERSHIP
+   This software library, header interfaces, state storage specifications, 
+   and execution logic are the sole intellectual property of Rupangshu Manna.
+
+2. RESTRICTIONS
+   No person or entity acquiring or viewing this source code is permitted to:
+   - Copy, duplicate, or alter any portion of this codebase.
+   - Reverse-engineer or derive architectural models from the binary or source code.
+   - Distribute, lease, sell, or sub-license this software to third parties.
+
+3. DISCLAIMER OF WARRANTY
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER "AS IS" WITHOUT ANY 
+   EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO PERFORMANCE, 
+   MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
+
+===============================================================================
