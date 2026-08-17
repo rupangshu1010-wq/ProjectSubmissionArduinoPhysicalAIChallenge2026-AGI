@@ -7,7 +7,7 @@
 ---
 
 ## 🚀 Overview
-Current AI development often relies on massive, brute-force computational paradigms that fail to scale efficiently or achieve true Artificial General Intelligence (AGI). This project introduces a novel approach: a direct neuro-replication of biological brain mechanics built from scratch in pure C (`NeuralNetwork.h` and `NeuralNetwork.c`). By bypassing bloated external datasets and running natively on the **Arduino UNO Q**, this system achieves high-efficiency, deterministic neurological processing at the edge.
+Current AI development often relies on massive, brute-force computational paradigms that fail to scale efficiently or achieve true Artificial General Intelligence (AGI). This project introduces a novel approach: a direct neuro-replication of biological brain mechanics built from scratch in pure C (<u>NeuralNetwork.h</u> and <u>NeuralNetwork.c</u>). By bypassing bloated external datasets and running natively on the **Arduino UNO Q**, this system achieves high-efficiency, deterministic neurological processing at the edge.
 
 ---
 
@@ -18,12 +18,12 @@ Current AI development often relies on massive, brute-force computational paradi
 
 ## 🧬 Core Architecture & Functions
 The system operates through an optimized low-level C architecture designed for real-time node management and memory efficiency:
-* `NetInitData()`: Initializes internal network data buffers and clears prior node states.
-* `NetAlloc()`: Dynamically allocates node resources up to `MaxNode` (scaling up to 100,000 nodes).
-* `NetInput()` / `NetTarget()`: Passes input data streams and training targets into model registers.
-* `NetTrigg()`: Executes the core biological neural forward propagation and inference cycle.
-* `NetGetMemory()` / `NetWriteMemory()`: Provides a direct "Memory Tunnel" interface for high-speed state reading, writing, and weight adjustments with zero latency.
-* `NetGetAlloc()` / `NetGetStats()` / `NetGetLearn()`: Tracks runtime execution metrics, memory usage, and learning telemetry.
+* NetInitData(): Initializes internal network data buffers and clears prior node states.
+* NetAlloc(): Dynamically allocates node resources up to `MaxNode` (scaling up to 100,000 nodes).
+* NetInput() / NetTarget(): Passes input data streams and training targets into model registers.
+* NetTrigg(): Executes the core biological neural forward propagation and inference cycle.
+* NetGetMemory() / NetWriteMemory(): Provides a direct "Memory Tunnel" interface for high-speed state reading, writing, and weight adjustments with zero latency.
+* NetGetAlloc() / NetGetStats() / NetGetLearn(): Tracks runtime execution metrics, memory usage, and learning telemetry.
 
 ---
 
